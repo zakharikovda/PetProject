@@ -1,0 +1,17 @@
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.div1 { display: inline; }
+
+a {
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+
+b {
+    display: inline-block;
+    margin-top: 20px;
+}
