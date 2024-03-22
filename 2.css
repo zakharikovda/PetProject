@@ -1,14 +1,50 @@
-#text{
+.title{
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 30px;
 }
 
-.div { 
+
+.drop-button {
+    border: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+
+.dropdown-link {
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.dropdown-link a {
+    color: black;
+    padding: 6px 30px;
+    margin: 10px 30px;
+    text-decoration: none;
+    display: block;
+    border: 2px solid black;
+}
+
+
+.dropdown-link a:hover {background-color:#E9E9E9;}
+.dropdown:hover .dropdown-link {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+.cardsContainer { 
     display: flex;  
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.div1 {
+.card {
     display: flex;
     margin: 10px;
     margin-inline-start: 20px;
