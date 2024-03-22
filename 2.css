@@ -1,11 +1,11 @@
 .title{
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    margin-left: 3%;
+    margin-left: 30px;
 }
 
 
-.dropbtn {
+.drop-button {
     border: 0;
     padding: 0;
     margin-left: 15px;
@@ -17,13 +17,13 @@
   }
 
 
-.dropdown-content {
+.dropdown-link {
     display: none;
     position: absolute;
     margin-top: 40px;
 }
 
-.dropdown-content a {
+.dropdown-link a {
     color: black;
     padding: 6px 30px;
     margin: 10px 30px;
@@ -33,12 +33,12 @@
 }
 
 
-.dropdown-content a:hover {background-color:#E9E9E9;}
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-link a:hover {background-color:#E9E9E9;}
+.dropdown:hover .dropdown-link {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
 
 
-.CardsContainer { 
+.cardsContainer { 
     display: flex;  
     justify-content: center;
     flex-wrap: wrap;
