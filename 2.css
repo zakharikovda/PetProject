@@ -5,10 +5,12 @@
 }
 
 
-.drop-button {
+.dropdown-button {
+    height: 45px;
+    width: 45px;
     border: 0;
-    padding: 0;
     margin-left: 15px;
+    border-radius: 40px;
 }
 
 .dropdown {
@@ -17,13 +19,13 @@
   }
 
 
-.dropdown-link {
+.dropdown-container {
     display: none;
     position: absolute;
     margin-top: 40px;
 }
 
-.dropdown-link a {
+.dropdown-link {
     color: black;
     padding: 6px 30px;
     margin: 10px 30px;
@@ -33,9 +35,9 @@
 }
 
 
-.dropdown-link a:hover {background-color:#E9E9E9;}
-.dropdown:hover .dropdown-link {display: block;}
-.dropdown:hover .dropbtn {background-color: grey;}
+.dropdown-link:hover {background-color:#E9E9E9;}
+.dropdown:hover .dropdown-container {display: block;}
+.dropdown:hover .dropdown-button {background-color: grey;}
 
 
 .cardsContainer { 
